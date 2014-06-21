@@ -1,20 +1,28 @@
 body {
 	background-color: gray;
+	font-family: arial, sans-serif;
 }
-/* green heading box*/
-.top-strip  {
+
+.strip {
+
 	width: 450px;
-	height: 250px;
-	background-color: #2ecc71;
 	margin-left: 250px;
 	margin-right: 150px;
+}
+/* green heading box*/
+.top.strip  {
+	
+	height: 250px;
+	background-color: #2ecc71;
+	/*margin-left: 250px;
+	margin-right: 150px;*/
 	position: relative;
 
 }
 /* text within green box*/
 .heading-text {
 	color: white;
-	font-family: Arial, sans-serif;
+	/*font-family: Arial, sans-serif;*/
 	font-size: xx-large;
 	position: absolute;
 	bottom: 10px;
@@ -22,12 +30,12 @@ body {
 
 }
 /* blue strip with navigation */
-.nav-strip {
-	width: 450px;
+.nav.strip {
+	
 	height: 50px;
 	background-color: #34495e;
-	margin-left: 250px;
-	margin-right: 150px;
+	/*margin-left: 250px;
+	margin-right: 150px;*/
 	color: white;
 	/*display: inline-block;*/
 	text-align: right;
@@ -41,8 +49,8 @@ body {
 	display: inline;
 	padding: 0px;
 	margin: 10px;
-	font-family: arial, sans-serif;
-
+	/*font-family: arial, sans-serif;*/
+	margin-bottom: 10px;
 	
 }
 /*
@@ -50,6 +58,29 @@ body {
 	
 }*/
 
+.white.strip {
+
+	height: 700px;
+	background-color: white;
+	margin-top: -2px;
+	padding-top: 34px;
+
+}
+
+.article-title {
+	margin-left: 10px;
+}
+
+.risks {
+
+	margin: 35px;
+	font-size: 11px;
+	}
 
 
+h3 {
+	border-bottom: 1px solid black;
+	width: 430px;
+
+}
 

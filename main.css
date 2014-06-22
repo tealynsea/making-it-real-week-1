@@ -1,5 +1,5 @@
 body {
-	background-color: gray;
+	background-color: grey;
 	font-family: arial, sans-serif;
 }
 
@@ -83,4 +83,59 @@ h3 {
 	width: 430px;
 
 }
+
+ 
+/*.table {
+	margin: 1em;
+	border-collapse: collapse;
+}
+
+.cell.heading  {
+	background-color: grey;
+	border: 2px solid black;
+}
+
+.cell  {
+
+	border: 1px solid black;
+}*/
+
+table {
+  border-collapse: collapse;
+  margin: 15px;
+ 
+}
+
+
+th, td{
+  border: 1px solid black;
+  padding: 5px;
+  width: 75px;
+  
+}
+
+th {
+	background-color: grey;
+}
+
+a {
+  border: 1px solid black;
+  background-color: blue;
+  color: white;
+  padding: 5px 20px;
+  
+  
+}
+
+.midcolumn {
+  width: 225px;
+  
+}
+  
+
+
+
+
+
+
 
